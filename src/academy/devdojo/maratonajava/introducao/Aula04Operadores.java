@@ -49,9 +49,21 @@ public class Aula04Operadores {
 
         // =, +=, -=, *=, /=, %=
         double bonus = 1800;
-        bonus  += 1000;
-        bonus -= 1000;
+        bonus  += 1000; //soma 1k ao bonus
+        bonus -= 1000; //subtrai 1k ao bonus
+        bonus *= 2; //multiplica o bonus por 2
+        bonus /= 2; //divide o bonus por 2
+        bonus %= 2; //resto do bonus por 2
         System.out.println(bonus);
 
+        //incrementador ++ --
+        int contador =0;
+        contador += 1; //contador recebe contador + 1
+        contador++; //adiciona em memoria +1
+        contador--; //subtrai em memoria +1
+        ++contador; //ao colocar antes ele incrementa antes de imprimir no sout
+        --contador; //
+        int contador2 = 0;
+        System.out.println(contador2++);
     }
 }
